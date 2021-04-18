@@ -1,4 +1,4 @@
-node_modules/*
+node_modules/
 images/
 BackEnd/base/src/main/resources/logs
 BackEnd/base/src/main/resources/**/.properties
