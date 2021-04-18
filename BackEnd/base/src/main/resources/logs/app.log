@@ -1,6 +1,0 @@
-2020/07/24 06:35:20 WARN  [HikariPool-1 housekeeper] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10h9m11s516ms345µs300ns).
-2020/07/24 10:10:22 INFO  [RMI TCP Connection(391)-127.0.0.1] - Application shutdown requested.
-2020/07/24 10:10:22 INFO  [RMI TCP Connection(391)-127.0.0.1] - Closing JPA EntityManagerFactory for persistence unit 'default'
-2020/07/24 10:10:22 INFO  [RMI TCP Connection(391)-127.0.0.1] - Shutting down ExecutorService 'applicationTaskExecutor'
-2020/07/24 10:10:22 INFO  [RMI TCP Connection(391)-127.0.0.1] - HikariPool-1 - Shutdown initiated...
-2020/07/24 10:10:22 INFO  [RMI TCP Connection(391)-127.0.0.1] - HikariPool-1 - Shutdown completed.
