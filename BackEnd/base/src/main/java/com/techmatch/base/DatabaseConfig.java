@@ -11,12 +11,20 @@ public class DatabaseConfig {
   @Value("${spring.datasource.url}")
   private String dbUrl;
 
+  @Value("${spring.datasource.username}")
+  private String userName;
+
+  @Value("${spring.datasource.password}")
+  private String dbPass;
+  
+  
   @Bean
   public DataSource dataSource() {
+	  
       HikariConfig config = new HikariConfig();
       config.setJdbcUrl(dbUrl);
-      config.setPassword("YOUR_PASSWORD");
-      config.setUsername("YOUR_NAME");
+      config.setPassword(dbPass);
+      config.setUsername(userName);
       config.setDriverClassName("org.postgresql.Driver");
       return new HikariDataSource(config);
   }
